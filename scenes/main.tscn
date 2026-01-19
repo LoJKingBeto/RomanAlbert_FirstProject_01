@@ -1,8 +1,8 @@
 [gd_scene load_steps=29 format=3 uid="uid://db7vukmbwqoes"]
 
-[ext_resource type="Texture2D" uid="uid://y1juh5s06d3n" path="res://assets/2D Resources/characters/DinoSprites - doux.png" id="1_sugp2"]
-[ext_resource type="FontFile" uid="uid://bu0be80wlp863" path="res://assets/2D Resources/fonts/PixelOperator8.ttf" id="2_jyhfs"]
-[ext_resource type="Texture2D" uid="uid://s4odr3ywbkhb" path="res://assets/2D Resources/tilesets/back.png" id="3_tbgi4"]
+[ext_resource type="Texture2D" uid="uid://y1juh5s06d3n" path="res://assets/2D_Resources/characters/DinoSprites - doux.png" id="1_sugp2"]
+[ext_resource type="FontFile" uid="uid://bu0be80wlp863" path="res://assets/2D_Resources/fonts/PixelOperator8.ttf" id="2_jyhfs"]
+[ext_resource type="Texture2D" uid="uid://s4odr3ywbkhb" path="res://assets/2D_Resources/tilesets/back.png" id="3_tbgi4"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tefeu"]
 atlas = ExtResource("1_sugp2")
@@ -183,7 +183,7 @@ animations = [{
 [node name="Node" type="Node"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
-up_direction = Vector2(0.70710677, -0.70710677)
+up_direction = Vector2(0.7071068, -0.7071068)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
 position = Vector2(1, -10)
