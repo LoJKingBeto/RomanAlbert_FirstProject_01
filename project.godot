@@ -11,9 +11,14 @@ config_version=5
 [application]
 
 config/name="RomanAlbert_FirstProject_01"
-run/main_scene="res://scenes/game.tscn"
+run/main_scene="uid://t1ot2x513f5j"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameManager="*res://scripts/game_manager.gd"
+Music="*res://music.tscn"
 
 [rendering]
 
